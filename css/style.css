@@ -1,26 +1,6 @@
-@media (max-width: 1200px){ 
-    /* Styles! */
-}
-
-/* If screen size is MORE than 800px wide */
-@media (min-width: 800px){ 
-    /* Styles! */
-    
-    
-}
-
-/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
-@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
-    /* Styles! */
-    
-}
-
-
-
-/* reset */
-
 
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -123,7 +103,7 @@
 /*sesion 2*/
 .contenedor-2{
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-image: url(../assets/img/descarga\ \(15\).jpg);
     display: flex;
     flex-direction: column;
@@ -313,6 +293,8 @@ iframe{
 
 /* Productos*/
 
+    
+
 .text1{
     background-color: rgb(63, 70, 77);
     width: 70%;
@@ -358,16 +340,68 @@ iframe{
 }
 
 /*Buzos*/
-.b1{
-    width: 70%;
-    background-color: rgb(70, 72, 75);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: antiquewhite;
+
+@media (max-width:320px){
+
+    .b1{
+        width: 70%;
+        background-color: rgb(70, 72, 75);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_b1{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_buzos{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_buzos img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 150px;
+    
+    }
+    .fotos_buzos p{
+        background-color: rgb(82, 78, 74);
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+        border-radius: 40px;
+        
+    }
+    .fotos_buzos a{
+        color: rgb(228, 240, 250);
+        text-decoration: none;
+    }
+    .fotos_buzos p:hover{
+        background-color: rgb(140, 228, 128);
+        color: rgb(26, 25, 24);
+    }
+
+    
 
 }
+
 .fotos_b1{
     background-color: rgb(63, 70, 77);
     width: 70%;
@@ -413,8 +447,66 @@ iframe{
     color: rgb(26, 25, 24);
 }
 
-
+    
 /*remeras*/
+
+@media (max-width:320px){
+    .r1{
+        width: 70%;
+        background-color: rgb(70, 72, 75);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_r1{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_reme{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_reme img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 150px;
+    
+    }
+    .fotos_reme p{
+        background-color: rgb(82, 78, 74);
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+        border-radius: 40px;
+        
+    }
+    .fotos_reme a{
+        color: rgb(228, 240, 250);
+        text-decoration: none;
+    }
+    .fotos_reme p:hover{
+        background-color: rgb(140, 228, 128);
+        color: rgb(26, 25, 24);
+    }
+    
+}
 .r1{
     width: 70%;
     background-color: rgb(70, 72, 75);
@@ -527,6 +619,48 @@ iframe{
     color: rgb(26, 25, 24);
 }
 /*nosotros*/
+@media (max-width:320px){
+    .nos{
+        width: 100%;
+        height: 80vh;
+        background-image: url(../assets/img/fondonos.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        color: antiquewhite;
+    
+    }
+    .nos1_img{
+        width: 35%;
+    
+    
+    }
+    .nos1_img img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 250px;
+    
+    }
+    .nos_text{
+        width: 35%;
+        background-color: black;
+    }
+    .nos_text h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .nos_text p{
+        font-size: 16px;
+        margin: 40px 0;
+        text-align: center;
+    }
+    .rs1{
+        text-align: center;
+    }
+}
 .nos{
     width: 100%;
     height: 80vh;
