@@ -1,0 +1,16 @@
+@mixin flex($width,$height,$direction,$content,$items){
+    width: $width;
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $items;
+    }
+
+@mixin grid($width,$height,$margin,$colum,$line){
+    width: $width;
+    height: $height;
+    margin: $margin;
+    grid-column: $colum;
+    outline: $line;
+}

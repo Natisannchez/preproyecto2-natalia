@@ -1,0 +1,41 @@
+main{
+    .text1{
+        background-color: $color_principal;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color_secundario;
+    
+    }
+    .fotos-productos{
+        background-color: rgb(40, 49, 49);
+        @include flex(70%,80vh,row,center,center);
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    
+    .fotos_imge{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .fotos_imge img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 150px;
+        
+    
+    }
+    .fotos_imge h3{
+        margin: 10px 0;
+        font-size: 20px;
+        text-align: end;
+        color: azure;
+    
+    }
+}

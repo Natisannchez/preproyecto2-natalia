@@ -1,0 +1,43 @@
+main{
+    .nos{
+        width: 100%;
+        height: 80vh;
+        background-image: url(../assets/img/fondonos.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        color: antiquewhite;
+    
+    }
+    .nos1_img{
+        width: 35%;
+    
+    
+    }
+    .nos1_img img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 250px;
+    
+    }
+    .nos_text{
+        width: 35%;
+        background-color: black;
+    }
+    .nos_text h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .nos_text p{
+        font-size: 16px;
+        margin: 40px 0;
+        text-align: center;
+    }
+    .rs1{
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,57 @@
+main{
+    .r1{
+        width: 70%;
+        background-color: rgb(70, 72, 75);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_r1{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_reme{
+        background-color: rgb(63, 70, 77);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: antiquewhite;
+    
+    }
+    .fotos_reme img{
+        border-radius: 15px;
+        border: 5px solid rgb(17, 17, 20);
+        height: 100%;
+        width: 150px;
+    
+    }
+    .fotos_reme p{
+        background-color: rgb(82, 78, 74);
+        width: 50%;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+        border-radius: 40px;
+        
+    }
+    .fotos_reme a{
+        color: rgb(228, 240, 250);
+        text-decoration: none;
+        &:hover{
+            background-color: rgb(140, 228, 128);
+            color: rgb(26, 25, 24);
+        }
+    }
+    
+}

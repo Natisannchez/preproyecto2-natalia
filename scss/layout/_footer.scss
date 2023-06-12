@@ -1,0 +1,86 @@
+footer{
+    background-color: rgb(42, 44, 42);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+
+    .footer-text{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box1{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+
+}
+.box2, .box3, .box4{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 55px;
+}
+
+.box1 h3, .box2 h3, .box3 h3, .box4 h3{
+    font-size: 28px;
+    margin: 25px 0;
+
+
+
+}
+
+.box1 p{
+    font-size: 20px;
+
+}
+
+.box2 a, .box3 a, .box4 a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5px 0;
+    font-size: 20px;
+}
+.rs{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.rs img{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 15px;
+
+}
+
+
+.footer-pie{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(58, 57, 55) ;
+
+}
+
+
+}
